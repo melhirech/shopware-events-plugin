@@ -1,0 +1,21 @@
+{
+  "name": "operativeweb/eventprocessor",
+  "description": "Plugin for event handling",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "OpwebEventProcessor\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "OpwebEventProcessor\\OpwebEventProcessor",
+    "label": {
+      "de-DE": "Event Processor plugin",
+      "en-GB": "Event Processor plugin"
+    }
+  },
+  "require": {
+    "symfony/http-client": "^5.2"
+  }
+}
